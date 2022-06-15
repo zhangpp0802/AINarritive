@@ -1,0 +1,74 @@
+magical shop and mundane shop are kinds of shop.
+a shop has a shopkeeper
+a shop can be expensive or cheap.
+a shop is lawful, chaotic, or Swiss.
+a shop is good, evil, or neutral.
+a shop is organized or messy.
+a shop is dirty or clean.
+a shop is big or small.
+
+magical supply store, wands shop, screaming books shop, black magical supply shop, apothecary, materia shop, and healer are kinds of magical shop.
+ritual objects shop, magical herb shop, and scary animal parts shop are kinds of magical supply store.
+
+scary animal parts shops are evil.
+healers are non-chaotic.
+black magical supply shops are evil.
+black magical supply shops are non-lawful.
+screaming books shops are chaotic.
+wands shops are messy.
+
+bakery, grocery store, armorer, jeweler, butcher, brewer, blobfish, axolotl and fishmonger are kinds of mundane shop.
+jewelers are expensive.
+brewers are chaotic.
+grocery stores are chaotic.
+
+human (10), child, dog, cat, kitsune, bear, owl, toad, and spider are kinds of shopkeeper.
+
+a shopkeeper can be tall or short.
+a shopkeeper can be skinny or stout.
+a shopkeeper can be intelligent, cunning, or stupid.
+a shopkeeper can be wise or foolish.
+a shopkeeper can be greedy or benevolent.
+a shopkeeper can be dour, cheerful, reserved, suspicious, or bored.
+a shopkeeper can be trustworthy or sketchy.
+a shopkeeper can be pretty, cute, or ugly.
+a shopkeeper can be talkative or quiet.
+a shopkeeper can be single or married.
+
+wise shopkeepers are non-sketchy.
+wise shopkeepers are non-dour.
+wise shopkeepers are non-suspicious.
+
+benevolent shopkeepers are non-suspicious.
+benevolent shopkeepers are non-dour.
+suspicious shopkeepers are non-trustworthy.
+trustworthy shopkeepers are non-cunning.
+cheerful shopkeepers are non-greedy.
+
+bears are non-skinny.
+bears are cheerful.
+
+a kitsune is non-stout.
+kitsunes are wise.
+owls are intelligent.
+spiders are short.
+owls are short.
+owls are quiet.
+kitsunes are short.
+dogs are short.
+cats are short.
+kitsunes are pretty.
+toads are ugly.
+blobfishs are ugly.
+axolotls are cute.
+spiders are cute.
+cats are pretty.
+dogs are pretty.
+a child is cute.
+
+Pressing "Shops" means "imagine 5 shops"
+Pressing "Test" means "test"
+
+every kind of shop should exist.
+every kind of shopkeeper should exist.
+
