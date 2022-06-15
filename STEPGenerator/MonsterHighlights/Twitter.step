@@ -1,0 +1,61 @@
+# This tells step that pressing Alt-T/Option-T should run [Tweets]
+HotKey t "Print some tweets" [Tweets].
+
+# Print 6 tweets
+[main]
+Tweets: [Tweet] [Tweet] [Tweet] [Tweet] [Tweet] [Tweet]
+
+# Tweet
+# Print a tweet for a randomly selected plot point.
+Tweet: <b>Monster Highlights</b> [NewLine] @MonsterHighlights [NewLine] [ClearContext] [Event] [Paragraph]
+
+# Event
+# Generate a random plot point and print it.
+Event: [PlotPoint ?event] [PrintPlotPoint ?event]
+
+###
+### What you need to write
+###
+
+[randomly]
+predicate PlotPoint ?event.
+# ?event is a possible plot point in a Monster High episode given
+# the characters and their relationships.  Fill in methods for this,
+# below.
+PlotPoint [hot_character ?who ?monsterType]: [IsA ?who ?monsterType]
+PlotPoint [confess_love ?a ?b]: [CrushOn ?a ?b] [Not [AssertDating ?a ?b]]
+PlotPoint [smoldering_look ?a ?b ?club]: [InClub ?a ?club] [InClub ?b ?club] [CrushOn ?a ?b] [CrushOn ?b ?a]
+PlotPoint [got_together ?a ?b]: [CrushOn ?a ?b] [CrushOn ?b ?a] [Not [AssertDating ?a ?b]]
+PlotPoint [breakup ?a ?b]: [Dating ?a ?b]
+PlotPoint [rejected ?a ?b]: [CrushOn ?b ?a] [Not [CrushOn ?a ?b]]
+PlotPoint [conflict ?cheatee ?cheater [cheating ?cheater ?cheetee ?other]]: [AssertDating ?cheatee ?cheater] [AssertDating ?cheater ?other] 
+PlotPoint [conflict ?cheatee ?other [cheating ?cheater ?cheetee ?other]]: [AssertDating ?cheatee ?cheater] [AssertDating ?cheater ?other] 
+PlotPoint [conflict ?attacker ?defender [triangle ?attacker ?defender ?loveInterest]]: [LoveTriangle ?attacker ?defender ?loveInterest]
+PlotPoint [cheating ?a ?b]: [CheatingOn ?a ?b]
+PlotPoint [star_crossed_lovers ?a ?atype ?b ?btype]: [Dating ?a ?b] [RivalMonsterTypes ?atype ?btype]
+PlotPoint [checkingOut ?a ?b]: [CrushOn ?a ?b]
+PlotPoint [popularAt ?a ?monsterType ?club]: [InClub ?a ?club] [IsA ?a ?monsterType]
+
+
+[randomly]
+task PrintPlotPoint ?event.
+# Generate text to describe the specified plot point. Fill in methods
+# for this, below.
+PrintPlotPoint [hot_character ?who ?monsterType]: I love ?who so much! ?monsterType [Is] my favorite character.
+PrintPlotPoint [confess_love ?a ?b]: ?b, I love you so much!
+PrintPlotPoint [smoldering_look ?a ?b ?club]: ?a and ?b are in ?club checking each other out.
+PrintPlotPoint [got_together ?a ?b]: ?a and ?b are in a relationship.
+PrintPlotPoint [breakup ?a ?b]: ?a and ?b break up.
+PrintPlotPoint [rejected ?a ?b]: ?a refuse[s] ?b a kiss.
+PrintPlotPoint [conflict ?cheatee ?cheater [cheating ?cheater ?cheetee ?other]]: ?cheatee and ?cheater are fighting because ?cheater [Is] also dating with ?other.
+PrintPlotPoint [conflict ?cheatee ?other [cheating ?cheater ?cheetee ?other]]: ?cheatee and ?other are fighting because ?cheater [Is] also dating with ?other.
+PrintPlotPoint [conflict ?attacker ?defender [triangle ?attacker ?defender ?loveInterest]]: There is fight between ?attacker and ?defender because there is a love triangle between ?attacker, ?defender, and ?loveInterest.
+PrintPlotPoint [cheating ?a ?b]: ?a [Is] cheating on ?b, so sad...
+PrintPlotPoint [star_crossed_lovers ?a ?atype ?b ?btype]: ?a [Is] in the relationship with ?b and they are not the same monster type.
+PrintPlotPoint [checkingOut ?a ?b]: ?a [Is] checking ?b out.
+PrintPlotPoint [popularAt ?a ?monsterType ?club]: ?a as a ?monsterType [Is] really popular in ?club.
+
+###
+### Place your code below
+###
+

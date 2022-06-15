@@ -1,0 +1,12 @@
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\bin\Debug\net5.0\HornClause.deps.json
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\bin\Debug\net5.0\HornClause.dll
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\bin\Debug\net5.0\ref\HornClause.dll
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\bin\Debug\net5.0\HornClause.pdb
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\obj\Debug\net5.0\HornClause.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\obj\Debug\net5.0\HornClause.AssemblyInfoInputs.cache
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\obj\Debug\net5.0\HornClause.AssemblyInfo.cs
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\obj\Debug\net5.0\HornClause.csproj.CoreCompileInputs.cache
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\obj\Debug\net5.0\HornClause.dll
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\obj\Debug\net5.0\ref\HornClause.dll
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\obj\Debug\net5.0\HornClause.pdb
+C:\Users\ianho\OneDrive - Northwestern University\Documents\Classes\AI and Experimental Narrative\Assignments\CSharp\HornClause\HornClause\HornClause\obj\Debug\net5.0\HornClause.csproj.AssemblyReference.cache
